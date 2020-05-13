@@ -2,9 +2,9 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 
 # Core
-gem 'sinatra', '1.4.7'
-gem 'rack-reverse-proxy'
-gem 'rack-contrib'
+gem 'sinatra', '2.0.0'
+gem 'rack-reverse-proxy', '>= 0.11.0'
+gem 'rack-contrib', '>= 2.0.0'
 gem 'rack-rewrite'
 gem 'slim', '3.0.6'
 gem 'redcarpet', '3.3.4'
@@ -24,8 +24,8 @@ gem 'puma'
 # Assets
 gem 'sass'
 gem 'rake'
-gem 'sprockets', '~> 3.0'
-gem 'sprockets-helpers'
+gem 'sprockets', '~> 3.6', '>= 3.6.0'
+gem 'sprockets-helpers', '>= 1.2.1'
 gem 'autoprefixer-rails', '6.3.6'
 gem 'uglifier', '3.0.0'
 
@@ -45,5 +45,5 @@ group :test do
   gem 'nokogiri', '1.6.7.2'
   gem 'cucumber'
   gem 'chronic'
-  gem 'capybara'
+  gem 'capybara', '>= 2.7.1'
 end
