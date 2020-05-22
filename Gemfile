@@ -19,7 +19,7 @@ gem 'icalendar'
 gem 'values'
 
 # Server
-gem 'puma'
+gem 'puma', '>= 3.12.6'
 
 # Assets
 gem 'sass'
