@@ -43,7 +43,7 @@ end
 group :test do
   gem 'rspec'
   gem 'nokogiri', '1.6.7.2'
-  gem 'cucumber'
+  gem 'cucumber', '>= 4.0.0'
   gem 'chronic'
   gem 'capybara'
 end
